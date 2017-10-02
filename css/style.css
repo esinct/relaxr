@@ -1,0 +1,147 @@
+/*Project Name: RELAXR Landing Page
+Client: RELAXR
+Author: ESIN CETI
+Developer @GA in London*/
+
+/*Importing Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans')
+/*Setup*/
+{
+  box-sizing: border-box; /*Box model hack*/
+}
+/*Clear fix*/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+/*Base styles*/
+body {
+	color: #000;
+	line-height: 1.5;
+	margin: 0 auto;
+	/*font-family: Helvetica, Arial, sans-serif;*/
+}
+
+/*Layout*/
+.container {  /* Center the container */
+	margin: auto;
+	width: 1024px;
+	height: 500px;
+	text-align: center;
+}
+.main {
+	width: auto;
+	height: auto;
+	background: #f0efef;
+	text-indent: 50px;
+	list-style-position: inside;
+	
+}
+/*Additional styles*/
+.intro {
+	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: 100% 100%;
+	color: white;
+}
+h1 {
+	text-align: left;
+	font-weight: bolder;
+	font-size: 40pt;
+	margin: 0 auto;
+	text-indent: 20px;
+}
+h2 {
+	font-weight: Semibold;
+	font-size: 30pt;
+	text-align: center;
+	padding: 30px;
+}
+h4 {
+	margin-top: 0;
+	padding-top: 30px;
+	font-weight: Semibold;
+	font-size: 20pt;
+	color: #033048;
+}
+.quote {
+	background: url("../images/testimonial_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: 100% 100%;
+	max-width: 100%;
+	color: white;
+	text-align: center;
+	padding: 50px 0;
+	font-size: 20pt;
+	
+}
+a.getitnow {
+	border: 2px solid #f9e42e;
+	border-radius: 5px;
+	background-color: #f9e42e;
+	color: #033048;
+	font-size: 14pt;
+	text-decoration: none;
+	font-weight: bolder;
+	padding: 5px 50px;
+}
+a.signupnow {
+	border: 2px solid #033048;
+	border-radius: 5px;
+	background-color: #033048;
+	color: white;
+	font-size: 14pt;
+	text-decoration: none;
+	font-weight: bolder;
+	padding: 5px 50px;
+}
+footer {
+	background-color: #121212;
+	text-align: center;
+	color: white;
+	font-size: 10pt;
+	margin: auto 0;
+	padding: 10px;
+	font-weight: Semibold;
+}
+a.twitter {
+	background: url("../images/twitter.png") no-repeat center;
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	padding-top: 0;
+	margin: 10px auto 40px auto;
+}
+a.fb {
+	background: url("../images/facebook.png")no-repeat center;
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	padding-top: 0;
+	margin: 10px auto 40px auto;
+}
+h3 {
+	font-weight: Semibold;
+	font-size: 25pt;
+	text-align: center;
+	color: #f9e42e;
+	padding-bottom: 0;
+	margin-bottom:0;
+}
+.benefits {
+	font-size: 15pt;
+	color: #033048;
+	font-style: lighter;
+	margin-left: 200px;
+    margin-right: 200px;
+	text-indent: 0px;
+	max-width: 500px; 
+}
+.signup {
+	background-color: #f9e42e;
+	padding: 10px;
+	border: 20px solid #f9e42e;
+	text-align: center;
+}
